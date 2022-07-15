@@ -1,0 +1,35 @@
+/* Responsive styles
+-------------------------------------------------------------- */
+
+//small desktop
+@media (max-width: 1210px) {
+	.container {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
+}
+
+@media (min-width: 1001px) {
+	.mobile-show {display: none!important;}
+}
+
+//tablets
+@media (max-width: 1000px) {
+	.mobile-hide {display: none !important;}
+
+}
+
+//small tablet + phones
+@media (max-width: 767px) {
+
+}
+
+//phones
+@media (max-width: 479px) {
+
+}
+
+@media only screen and (orientation: landscape) {
+	body {-webkit-text-size-adjust: none;}
+}

@@ -1,0 +1,31 @@
+{
+	"name": "animalshelter-wordpress-theme",
+	"version": "1.0.0",
+	"author": "Igor Gana <artgana@gmail.com>",
+	"homepage": "https://animalshelter.demo.artgana.com.ua/",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/artgana/animal-shelter"
+	},
+	"dependencies": {
+		"mmenu-light": "^3.1.1"
+	},
+	"devDependencies": {
+		"browser-sync": "^2.27.10",
+		"gulp": "^4.0.2",
+		"sass": "^1.53.0",
+		"gulp-sass": "^5.1.0",
+		"gulp-autoprefixer": "^8.0.0",
+		"gulp-clean-css": "^4.3.0",
+		"gulp-concat": "^2.6.1",
+	  	"gulp-cssimport": "^7.0.0",
+		"gulp-plumber": "^1.2.1",
+		"gulp-rename": "^2.0.0",
+		"gulp-uglify": "^3.0.2",
+		"gulp-webp": "^4.0.1"
+	},
+	"browserslist": [
+		"last 3 version",
+		"not dead"
+	]
+}
